@@ -10,4 +10,4 @@ router.use('/user',require('./userRoute'));
 
 
 
-module.exports = router
+module.exports = router;

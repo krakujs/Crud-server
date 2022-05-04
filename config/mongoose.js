@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.DB_HOSTNAME,{
+mongoose.connect('mongodb+srv://krak:krak1234@cluster0.rlgg6.mongodb.net/Crud?retryWrites=true&w=majority',{
     useNewUrlParser:true    
 });
 
